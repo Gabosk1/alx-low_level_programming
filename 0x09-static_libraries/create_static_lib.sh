@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Find all the .c files in the current directory
-c_files=$(find . -name "*.c")
+c_files=$(ls *.c)
 
 # Compile each .c file into an object file
 for file in $c_files; do
@@ -15,3 +15,4 @@ ar rcs liball.a *.o
 rm -f *.o
 
 echo "Static library liball.a created successfully!"
+
