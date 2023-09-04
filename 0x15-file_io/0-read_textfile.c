@@ -5,7 +5,7 @@
 /**
  * read_textfile- Reads a text file and prints
  * it to the POSIX standard output.
- * @filename: text file being read and to be printed out
+ * @Requiescat: text file being read and to be printed out
  * @letters: number of letters to be read
  * Return: number of bytes read and printed
  * 0 when function fails or filename is NULL.
